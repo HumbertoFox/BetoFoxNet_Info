@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    animation: headerAnim 2s ease 0s 1 normal forwards;
+}
+.logo-bfn {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    width: 130px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.logo-bfn::before {
+	position: absolute;
+	width: 60px;
+	height: 135px;
+	content: '';
+	top: -3;
+	z-index: -1;
+	background-color: #08b2f0;
+	animation: logoAnim 5s linear infinite;
+}
+.logo-bfn::after {
+	position: absolute;
+	width: 135px;
+	height: 60px;
+	content: '';
+	left: -3;
+	z-index: -1;
+	background-color: #08b2f0;
+	animation: logoAnim 5s linear infinite;
+}
+.logo-bfn img {
+	width: 126px;
+	border-radius: 100%;
+	background-color: #FFF;
+	transition: .3s ease-in-out;
+}
+.logo-bfn img:hover {
+    background-color: #08b2f0;
+}
+.ul-menu {
+    display: flex;
+    padding-top: 20px;
+}
+.ul-menu li {
+	position: relative;
+	transition: .3s ease-in-out;
+}
+.ul-menu li:hover {
+    opacity: .6;
+}
+.ul-menu li::after {
+	content: '';
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	left: 50%;
+	bottom: -2px;
+	background-color: #08b2f0;
+	transition: all ease-in-out .2s;
+}
+.ul-menu li:hover::after {
+	width: 100%;
+	left: 0;
+}
+.ul-menu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #08b2f0;
+    padding: 10px 12px; 
+}
+@keyframes headerAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+@keyframes logoAnim {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,42 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+    animation: iframeAnim 2s ease 0s 1 normal forwards;
+}
+.div-img img {
+    width: 100%;
+}
+.div-img {
+    max-width: 350px;
+}
+.section-boas-vindas {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.section-boas-vindas h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-boas-vindas h1 strong {
+    color: #08b2f0;
+}
+.section-boas-vindas p {
+    font-size: 14px;
+    font-weight: 400;
+}
+@keyframes iframeAnim {
+	0% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
