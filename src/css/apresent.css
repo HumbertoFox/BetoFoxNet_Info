@@ -3,6 +3,7 @@ main {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 15px;
     font-family: 'Open Sans', sans-serif;
     padding-top: 10px;
@@ -30,6 +31,11 @@ main {
 }
 .section-boas-vindas h1 strong {
     color: #08b2f0;
+    cursor: default;
+    transition: .3s ease-in-out;
+}
+.section-boas-vindas h1 strong:hover {
+    opacity: .6;
 }
 .section-boas-vindas p {
     font-size: 14px;

@@ -1,0 +1,44 @@
+@media (max-width: 710px) {
+    body {
+        min-width: 375px;
+    }
+    .div-menu {
+        display: block;
+    }
+    .nav-menu .ul-menu {
+        display: none;
+    }
+    input:checked ~ .ul-menu {
+        display: block;
+    }
+    .nav-menu {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+    }
+    .nav-menu .ul-menu {
+        width: 200px;
+        background-color: #FFF;
+        padding: 20px;
+    }
+    .nav-menu .ul-menu a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+    .ul-social {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 860px) {
+    footer {
+        justify-content: center;
+    }
+    .div-endereco {
+        text-align: center;
+    }
+    .ul-social {
+        justify-content: center;
+    }
+}

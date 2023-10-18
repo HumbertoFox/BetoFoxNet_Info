@@ -27,8 +27,9 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 0 30px;
+    padding: 10px 30px;
     animation: footerAnim 2s ease 0s 1 normal forwards;
 }
 .div-endereco {
@@ -60,6 +61,7 @@ footer {
 }
 .ul-social li a:hover {
     box-shadow: 0 2px 10px #08b2f0;
+    transform: rotate(360deg);
 }
 @keyframes footerAnim {
 	0% {

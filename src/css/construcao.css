@@ -2,23 +2,25 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 15px;
     font-family: 'Open Sans', sans-serif;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
-.div-main {
-    max-width: 270px;
+.div-img {
+    max-width: 300px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 10px;
 }
-.div-img img {
+.div-img-construcao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-img img, .div-img-construcao img {
     width: 100%;
 }
 @keyframes iframeAnim {
