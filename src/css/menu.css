@@ -46,6 +46,15 @@ header {
 	position: relative;
 	transition: .3s ease-in-out;
 }
+.ul-menu li.activa::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: -2px;
+	background-color: #08b2f0;
+}
 .ul-menu li:hover {
     opacity: .6;
 }
