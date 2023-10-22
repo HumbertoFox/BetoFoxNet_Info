@@ -29,6 +29,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    gap: 10px;
     padding: 10px 30px;
     animation: footerAnim 2s ease 0s 1 normal forwards;
 }
@@ -39,6 +40,15 @@ footer {
 .div-endereco p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+}
+.company {
+    align-self: self-end;
+}
+.company p {
+    font-size: 12px;
+    color: #737373;
     font-weight: 400;
 }
 .ul-social {
@@ -62,6 +72,9 @@ footer {
 .ul-social li a:hover {
     box-shadow: 0 2px 10px #08b2f0;
     transform: rotate(360deg);
+}
+.ul-social li:nth-child(9) {
+    display: none;
 }
 @keyframes footerAnim {
 	0% {

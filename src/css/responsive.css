@@ -32,6 +32,10 @@
     }
 }
 @media (max-width: 860px) {
+    .logo-bfn {
+        width: 80px;
+        height: 80px;
+    }
     footer {
         justify-content: center;
     }
@@ -41,5 +45,8 @@
     .ul-social {
         justify-content: center;
         padding-top: 10px;
+    }
+    .ul-social li:nth-child(9) {
+        display: block;
     }
 }

@@ -28,8 +28,8 @@ header {
 	animation-delay: -1s;
 }
 .logo-bfn img {
-	width: 126px;
-	height: 126px;
+	width: 97%;
+	height: 97%;
 	border-radius: 100%;
 	background-color: #FFF;
 	transition: .3s ease-in-out;
