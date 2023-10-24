@@ -9,19 +9,26 @@ main {
     font-family: 'Open Sans', sans-serif;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .div-img {
     max-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div-img-construcao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.div-img img, .div-img-construcao img {
+.div-img img {
     width: 100%;
+    border-radius: 15px;
+}
+.section p {
+    max-width: 200px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
 }
 @keyframes iframeAnim {
 	0%,	50%, 100% {
