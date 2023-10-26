@@ -13,16 +13,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .div-img {
-    max-width: 300px;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .div-img img {
     width: 100%;
-    border-radius: 15px;
 }
 .section p {
     max-width: 200px;
