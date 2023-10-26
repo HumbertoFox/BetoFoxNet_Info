@@ -21,7 +21,7 @@ main {
     font-weight: 400;
 }
 .div-sobrenos p {
-    max-width: 70%;
+    width: 70%;
     text-align: justify;
     font-size: 14px;
     font-weight: 400;
@@ -59,4 +59,9 @@ main {
 	100% {
 		transform: scale(1);
 	}
+}
+@media (max-width: 710px) {
+    .div-sobrenos p {
+        width: 90%;
+    }
 }
