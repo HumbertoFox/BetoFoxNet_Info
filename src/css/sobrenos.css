@@ -34,12 +34,12 @@ main {
     flex-wrap: wrap;
     gap: 10px;
 }
-.div-img {
+.div-img, .div-video {
     max-width: 350px;
     display: flex;
     align-items: center;
 }
-.div-img img {
+.div-img img, .div-video video, .div-video video iframe {
     width: 100%;
     border-radius: 15px;
 }
@@ -49,7 +49,7 @@ main {
     font-size: 14px;
     font-weight: 400;
 }
-.div-notebook, .div-desktop {
+.div-notebook, .div-desktop, .div-video-apresentation {
     flex-direction: row-reverse;
 }
 @keyframes iframeAnim {
