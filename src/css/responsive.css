@@ -21,6 +21,7 @@
         width: 200px;
         background-color: rgba(255, 255, 255, .8);
         padding: 20px;
+        animation: hamburgAnim .3s linear 0s 1 normal forwards;
     }
     .nav-menu .ul-menu a {
         text-align: center;
@@ -49,4 +50,16 @@
     .ul-social li:nth-child(9) {
         display: block;
     }
+}
+@keyframes hamburgAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		animation-timing-function: ease-in;
+		transform: translateX(0);
+	}
 }
