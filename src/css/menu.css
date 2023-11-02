@@ -13,7 +13,7 @@ header {
     width: 130px;
 	height: 130px;
 	border-radius: 100%;
-	background: repeating-conic-gradient(from var(--i), #08b2f0 0%, #08b2f0 5%, transparent 5%, transparent 40%, #08b2f0 50%);
+	background: repeating-conic-gradient(from var(--i), #08B2F0 0%, #08B2F0 5%, #08B2F0 10%, transparent 5%, transparent 40%, #08B2F0 50%);
 	animation: logoAnim 4s linear infinite;	
 }
 .logo-bfn::before {
@@ -21,9 +21,13 @@ header {
 	width: 100%;
 	height: 100%;
 	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	border-radius: 100%;
 	z-index: -1;
-	background: repeating-conic-gradient(from var(--i), #08b2f0 0%, #08b2f0 5%, transparent 5%, transparent 40%, #08b2f0 50%);
+	background: repeating-conic-gradient(from var(--i), #08B2F0 0%, #08B2F0 5%, #08B2F0 10%, transparent 5%, transparent 40%, #08B2F0 50%);
 	animation: logoAnim 4s linear infinite;
 	animation-delay: -1s;
 }
