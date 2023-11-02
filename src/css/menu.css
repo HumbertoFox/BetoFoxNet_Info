@@ -87,7 +87,7 @@ header {
     display: none;
     width: 60px;
     height: 60px;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 nav label {
     display: flex;
@@ -123,14 +123,14 @@ input {
     display: none;
 }
 input:checked ~ label .hamburg {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
 }
 input:checked ~ label .hamburg:before {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     top: 0;
 }
 input:checked ~ label .hamburg:after {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     bottom: 0;
 }
 @keyframes headerAnim {

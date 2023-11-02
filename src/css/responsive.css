@@ -2,6 +2,9 @@
     body {
         min-width: 375px;
     }
+    header {
+        flex-direction: row-reverse;
+    }
     .div-menu {
         display: block;
     }
@@ -14,7 +17,7 @@
     .nav-menu {
         position: absolute;
         top: 8px;
-        right: 20px;
+        left: 20px;
         z-index: 1;
     }
     .nav-menu .ul-menu {
@@ -22,6 +25,7 @@
         background-color: rgba(255, 255, 255, .8);
         padding: 20px;
         animation: hamburgAnim .3s linear 0s 1 normal forwards;
+        border-radius: 10px;
     }
     .nav-menu .ul-menu a {
         text-align: center;
@@ -55,7 +59,7 @@
 	0% {
 		animation-timing-function: ease-in;
 		opacity: 0;
-		transform: translateX(250px);
+		transform: translateX(-250px);
 	}
 
 	100% {
