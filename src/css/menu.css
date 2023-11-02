@@ -12,7 +12,7 @@ header {
 	justify-content: center;
     width: 130px;
 	height: 130px;
-	border-radius: 100%;
+	border-radius: 50%;
 	background: repeating-conic-gradient(from var(--i), #08B2F0 0%, #08B2F0 5%, #08B2F0 10%, transparent 5%, transparent 40%, #08B2F0 50%);
 	animation: logoAnim 4s linear infinite;	
 }
@@ -25,7 +25,7 @@ header {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	border-radius: 100%;
+	border-radius: 50%;
 	z-index: -1;
 	background: repeating-conic-gradient(from var(--i), #08B2F0 0%, #08B2F0 5%, #08B2F0 10%, transparent 5%, transparent 40%, #08B2F0 50%);
 	animation: logoAnim 4s linear infinite;
@@ -34,7 +34,7 @@ header {
 .logo-bfn img {
 	width: 97%;
 	height: 97%;
-	border-radius: 100%;
+	border-radius: 50%;
 	background-color: #FFF;
 	transition: .3s ease-in-out;
 }
