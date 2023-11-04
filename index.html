@@ -1,80 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Somos uma empresa de tecnologia e inovação em hardware, software e desenvolvimento web"
+    />
+    <title>BetoFoxNet_Info</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/menu.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon" />
-  <title>BetoFoxNet_Info</title>
-  <link rel="stylesheet" href="src/css/reset.css" />
-  <link rel="stylesheet" href="src/css/style.css" />
-  <link rel="stylesheet" href="src/css/menu.css" />
-  <link rel="stylesheet" href="src/css/responsive.css">
-</head>
-
-<body>
-  <main>
-    <header>
-      <div class="logo-bfn">
-        <img src="src/images/LOGO-BFN-INTER.png" alt="Icon for Logo" />
-      </div>
-      <nav class="nav-menu">
-        <input type="checkbox" id="menu-hamburg">
-        <label for="menu-hamburg">
-          <div class="div-menu">
-            <span class="hamburg"></span>
-          </div>
-        </label>
-        <ul class="ul-menu">
-          <li class="li-menu activa"><a href="apresentation.html" target="iframe-inicial">Início</a></li>
-          <li class="li-menu"><a href="localizacao.html" target="iframe-inicial">Localização</a></li>
-          <li class="li-menu"><a href="sobrenos.html" target="iframe-inicial">Sobre Nós</a></li>
-          <li class="li-menu"><a href="catalogo.html" target="iframe-inicial">Catálogo</a></li>
-          <li class="li-menu"><a href="areadocliente.html" target="iframe-inicial">Área do Cliente</a></li>
+  <body>
+    <main>
+      <header>
+        <div class="logo-bfn">
+          <img src="src/images/LOGO-BFN-INTER.png" alt="Icon for Logo" />
+        </div>
+        <nav class="nav-menu">
+          <input type="checkbox" id="menu-hamburg" />
+          <label for="menu-hamburg">
+            <div class="div-menu">
+              <span class="hamburg"></span>
+            </div>
+          </label>
+          <ul class="ul-menu">
+            <li class="li-menu activa">
+              <a href="apresentation.html" target="iframe-inicial">Início</a>
+            </li>
+            <li class="li-menu">
+              <a href="localizacao.html" target="iframe-inicial">Localização</a>
+            </li>
+            <li class="li-menu">
+              <a href="sobrenos.html" target="iframe-inicial">Sobre Nós</a>
+            </li>
+            <li class="li-menu">
+              <a href="catalogo.html" target="iframe-inicial">Catálogo</a>
+            </li>
+            <li class="li-menu">
+              <a href="areadocliente.html" target="iframe-inicial"
+                >Área do Cliente</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section-iframe">
+        <iframe src="apresentation.html" name="iframe-inicial" frameborder="0">
+        </iframe>
+      </section>
+      <footer>
+        <address class="div-endereco">
+          <p>Endereço:</p>
+          <p>PE-022, 344-Box-B, Nossa senhora da Conceição, Paulista-PE.</p>
+          <p>Paulista, 53.421-420, BR.</p>
+          <p>Contato: 81 98807-5408 - WhatsApp.</p>
+        </address>
+        <address class="company">
+          <p>&copy; 2015 - <span id="anoatual"></span> por BetoFoxNet_Info</p>
+        </address>
+        <ul class="ul-social">
+          <li>
+            <a href="https://www.instagram.com/betofoxnet_info/" target="_blank"
+              ><img src="src/images/instagram.png" alt="Icon instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/BetofoxnetInfo" target="_blank"
+              ><img src="src/images/facebook.png" alt="icon facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/betofoxnet_info" target="_blank"
+              ><img src="src/images/twitter.png" alt="Icon Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@betofoxnet_info" target="_blank"
+              ><img src="src/images/tiktok.png" alt="Icon Tiktok"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@betofoxnet_info" target="_blank"
+              ><img src="src/images/youtube.png" alt="Icon Youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/HumbertoFox" target="_blank"
+              ><img src="src/images/github.png" alt="Icon Tiktok"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/betofoxnetinfo/"
+              target="_blank"
+              ><img src="src/images/linkedln.png" alt="Icon Linkedln"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5581988075408&text&type=phone_number&app_absent=0"
+              target="_blank"
+              ><img src="src/images/whatsapp.png" alt="Icon WhatsApp"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.sejda.com/call/%2B5581988075408"
+              target="_blank"
+              ><img src="src/images/telefone.png" alt="Icon Telefone"
+            /></a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <section class="section-iframe">
-      <iframe src="apresentation.html" name="iframe-inicial" frameborder="0">
-      </iframe>
-    </section>
-    <footer>
-      <address class="div-endereco">
-        <p>Endereço:</p>
-        <p>PE-022, 344-Box-B, Nossa senhora da Conceição, Paulista-PE.</p>
-        <p>Paulista, 53.421-420, BR.</p>
-        <p>Contato: 81 98807-5408 - WhatsApp.</p>
-      </address>
-      <address class="company">
-        <p> &copy; 2015 - <span id="anoatual"></span> por BetoFoxNet_Info</p>
-      </address>
-      <ul class="ul-social">
-        <li><a href="https://www.instagram.com/betofoxnet_info/" target="_blank"><img src="src/images/instagram.png"
-              alt="Icon instagram"></a></li>
-        <li><a href="https://www.facebook.com/BetofoxnetInfo" target="_blank"><img src="src/images/facebook.png"
-              alt="icon facebook"></a></li>
-        <li><a href="https://twitter.com/betofoxnet_info" target="_blank"><img src="src/images/twitter.png"
-              alt="Icon Twitter"></a></li>
-        <li><a href="https://www.tiktok.com/@betofoxnet_info" target="_blank"><img src="src/images/tiktok.png"
-              alt="Icon Tiktok"></a></li>
-        <li><a href="https://www.youtube.com/@betofoxnet_info" target="_blank"><img src="src/images/youtube.png"
-              alt="Icon Youtube"></a></li>
-        <li><a href="https://github.com/HumbertoFox" target="_blank"><img src="src/images/github.png"
-              alt="Icon Tiktok"></a></li>
-        <li><a href="https://www.linkedin.com/company/betofoxnetinfo/" target="_blank"><img
-              src="src/images/linkedln.png" alt="Icon Linkedln"></a></li>
-        <li>
-          <a href="https://api.whatsapp.com/send/?phone=5581988075408&text&type=phone_number&app_absent=0"
-            target="_blank"><img src="src/images/whatsapp.png" alt="Icon WhatsApp"></a>
-        </li>
-        <li>
-          <a href="https://www.sejda.com/call/%2B5581988075408"
-            target="_blank"><img src="src/images/telefone.png" alt="Icon Telefone"></a>
-        </li>
-      </ul>
-    </footer>
-  </main>
-  <script src="src/js/index.js"></script>
-</body>
-
+      </footer>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
 </html>
