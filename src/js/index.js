@@ -14,8 +14,8 @@ menuListItens.forEach((liitens) =>
     liitens.addEventListener('click', selectMenu)
 );
 
-for (let i = 0; i < menuListItens.length; i++) {
-    menuListItens[i].addEventListener('click', function(){
+for (const iterator of menuListItens) {
+    iterator.addEventListener('click', function(){
         selectCheckdBox.checked = false;
     });
 };
