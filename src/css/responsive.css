@@ -1,5 +1,5 @@
 @media (max-width: 710px) {
-    body {
+    .body-index {
         min-width: 375px;
     }
     header {
