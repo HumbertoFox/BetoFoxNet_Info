@@ -7,7 +7,6 @@ main {
     flex-wrap: wrap;
     gap: 15px;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 10px;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 .div-img {
