@@ -60,8 +60,3 @@ main {
 		transform: scale(1);
 	}
 }
-@media (max-width: 710px) {
-    .div-sobrenos p {
-        width: 90%;
-    }
-}

@@ -35,6 +35,9 @@
     .ul-social {
         flex-wrap: wrap;
     }
+    .div-sobrenos p {
+        width: 90%;
+    }
 }
 @media (max-width: 860px) {
     .logo-bfn {
