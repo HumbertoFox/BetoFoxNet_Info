@@ -1,3 +1,22 @@
+@media (max-width: 860px) {
+    .logo-bfn {
+        width: 80px;
+        height: 80px;
+    }
+    footer {
+        justify-content: center;
+    }
+    .div-endereco {
+        text-align: center;
+    }
+    .ul-social {
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .ul-social li:nth-child(9) {
+        display: block;
+    }
+}
 @media (max-width: 710px) {
     .body-index {
         min-width: 375px;
@@ -32,30 +51,17 @@
         padding: 15px;
         display: block;
     }
+    .ul-menu a::after {
+        bottom: 10px;
+    }
+    .nav-menu .ul-menu a.activa::after {
+        bottom: 10px;
+    }
     .ul-social {
         flex-wrap: wrap;
     }
     .div-sobrenos p {
         width: 90%;
-    }
-}
-@media (max-width: 860px) {
-    .logo-bfn {
-        width: 80px;
-        height: 80px;
-    }
-    footer {
-        justify-content: center;
-    }
-    .div-endereco {
-        text-align: center;
-    }
-    .ul-social {
-        justify-content: center;
-        padding-top: 10px;
-    }
-    .ul-social li:nth-child(9) {
-        display: block;
     }
 }
 @keyframes hamburgAnim {

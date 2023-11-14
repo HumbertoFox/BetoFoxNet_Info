@@ -1,4 +1,4 @@
-const menuListItens = document.querySelectorAll('.li-menu');
+const menuListItens = document.querySelectorAll('.li-menu a');
 const selectCheckdBox = document.getElementById('menu-hamburg');
 
 document.getElementById('anoatual').innerHTML = new Date().getFullYear();
