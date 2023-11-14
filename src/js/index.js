@@ -8,14 +8,9 @@ function selectMenu() {
         liitens.classList.remove('activa')
     );
     this.classList.add('activa');
+    selectCheckdBox.checked = false;
 };
 
 menuListItens.forEach((liitens) =>
     liitens.addEventListener('click', selectMenu)
 );
-
-for (const iterator of menuListItens) {
-    iterator.addEventListener('click', function(){
-        selectCheckdBox.checked = false;
-    });
-};
