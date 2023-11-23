@@ -9,32 +9,47 @@ main {
     font-family: 'Open Sans', sans-serif;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
+
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    transition: .3s ease-in-out;
 }
+
+.section:hover {
+    transform: scale(1.1);
+}
+
 .div-img {
     max-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .div-img img {
     width: 100%;
 }
+
 .section p {
     max-width: 200px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
 }
+
 @keyframes iframeAnim {
-	0%,	50%, 100% {
-		opacity: 1;
-	}
-	25%, 75% {
-		opacity: 0;
-	}
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
 }

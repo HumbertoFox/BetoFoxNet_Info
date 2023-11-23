@@ -3,42 +3,53 @@
         width: 80px;
         height: 80px;
     }
+
     footer {
         justify-content: center;
     }
+
     .div-endereco {
         text-align: center;
     }
+
     .ul-social {
         justify-content: center;
         padding-top: 10px;
     }
+
     .ul-social li:nth-child(9) {
         display: block;
     }
 }
+
 @media (max-width: 710px) {
     .body-index {
         min-width: 375px;
     }
+
     header {
         flex-direction: row-reverse;
     }
+
     .div-menu {
         display: block;
     }
+
     .nav-menu .ul-menu {
         display: none;
     }
-    input:checked ~ .ul-menu {
+
+    input:checked~.ul-menu {
         display: block;
     }
+
     .nav-menu {
         position: absolute;
         top: 8px;
         left: 20px;
         z-index: 1;
     }
+
     .nav-menu .ul-menu {
         width: 200px;
         background-color: rgba(255, 255, 255, .8);
@@ -46,33 +57,39 @@
         animation: hamburgAnim .3s linear 0s 1 normal forwards;
         border-radius: 10px;
     }
+
     .nav-menu .ul-menu a {
         text-align: center;
         padding: 15px;
         display: block;
     }
+
     .ul-menu a::after {
         bottom: 10px;
     }
+
     .nav-menu .ul-menu a.activa::after {
         bottom: 10px;
     }
+
     .ul-social {
         flex-wrap: wrap;
     }
+
     .div-sobrenos p {
         width: 90%;
     }
 }
-@keyframes hamburgAnim {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateX(-250px);
-	}
 
-	100% {
-		animation-timing-function: ease-in;
-		transform: translateX(0);
-	}
+@keyframes hamburgAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        animation-timing-function: ease-in;
+        transform: translateX(0);
+    }
 }

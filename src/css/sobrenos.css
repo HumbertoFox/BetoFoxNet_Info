@@ -8,6 +8,7 @@ main {
     font-family: 'Open Sans', sans-serif;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
+
 .div-sobrenos {
     width: 100%;
     display: flex;
@@ -16,16 +17,19 @@ main {
     justify-content: center;
     gap: 10px;
 }
+
 .div-sobrenos h1 {
     font-size: 20px;
     font-weight: 400;
 }
+
 .div-sobrenos p {
     width: 70%;
     text-align: justify;
     font-size: 14px;
     font-weight: 400;
 }
+
 .div-main {
     width: 100%;
     display: flex;
@@ -34,29 +38,39 @@ main {
     flex-wrap: wrap;
     gap: 10px;
 }
-.div-img, .div-video {
+
+.div-img,
+.div-video {
     max-width: 350px;
     display: flex;
     align-items: center;
 }
-.div-img img, .div-video video {
+
+.div-img img,
+.div-video video {
     width: 100%;
     border-radius: 15px;
 }
+
 .div-main p {
     width: 300px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
 }
-.div-notebook, .div-desktop, .div-seguranca {
+
+.div-notebook,
+.div-desktop,
+.div-seguranca {
     flex-direction: row-reverse;
 }
+
 @keyframes iframeAnim {
-	0% {
-		transform: scale(0.5);
-	}
-	100% {
-		transform: scale(1);
-	}
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
