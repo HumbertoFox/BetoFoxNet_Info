@@ -1,68 +1,76 @@
-main {
-    width: 100%;
-    height: 100%;
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+.main-sobrenos {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 
-.div-sobrenos {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.div-sobrenos h1 {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.div-sobrenos p {
-    width: 70%;
-    text-align: justify;
-    font-size: 14px;
-    font-weight: 400;
-}
-
 .div-main {
     width: 100%;
+    height: 100%;
+    position: absolute;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
 }
 
-.div-img,
-.div-video {
-    max-width: 350px;
-    display: flex;
-    align-items: center;
+.div-sobrenos {
+    flex-direction: column;
+    color: #000;
+    background-image: url(../images/LOGO-BFN-WALLPAPER.png);
 }
 
-.div-img img,
-.div-video video {
-    width: 100%;
-    border-radius: 15px;
+.div-placa-mae {
+    background-image: url(../images/placamae.jpg);
 }
 
-.div-main p {
-    width: 300px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
+.div-notebook {
+    background-image: url(../images/placadenotebook.jpg);
 }
 
-.div-notebook,
-.div-desktop,
+.div-placa-video {
+    background-image: url(../images/placadevideo.jpg);
+}
+
+.div-desktop {
+    background-image: url(../images/gabinete.jpg);
+}
+
+.div-site {
+    background-image: url(../images/desenvsite.jpg);
+}
+
 .div-seguranca {
-    flex-direction: row-reverse;
+    background-image: url(../images/camera.jpg);
+}
+
+.div-main .h2-info-nos {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.div-sobrenos .p-info-nos {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.visibled {
+    opacity: 1;
 }
 
 @keyframes iframeAnim {
