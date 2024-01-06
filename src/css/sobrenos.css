@@ -80,7 +80,7 @@ body {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    opacity: .2;
+    opacity: 0;
     transition: .3s ease-in-out;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .btn-sobre:hover {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .arrow {
