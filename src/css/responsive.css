@@ -37,10 +37,15 @@
 
     .nav-menu .ul-menu {
         display: none;
+        width: 200px;
+        background-color: rgba(255, 255, 255, .8);
+        padding: 20px;
+        border-radius: 10px;
     }
 
     input:checked~.ul-menu {
         display: block;
+        animation: hamburgAnim .3s linear forwards;
     }
 
     .nav-menu {
@@ -48,14 +53,6 @@
         top: 8px;
         left: 20px;
         z-index: 1;
-    }
-
-    .nav-menu .ul-menu {
-        width: 200px;
-        background-color: rgba(255, 255, 255, .8);
-        padding: 20px;
-        animation: hamburgAnim .3s linear 0s 1 normal forwards;
-        border-radius: 10px;
     }
 
     .nav-menu .ul-menu a {
@@ -76,8 +73,12 @@
         flex-wrap: wrap;
     }
 
-    .div-sobrenos p {
-        width: 90%;
+    .div-main .h2-info-nos {
+        font-size: 24px;
+    }
+    
+    .div-sobrenos .p-info-nos {
+        font-size: 16px;
     }
 }
 

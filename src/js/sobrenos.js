@@ -1,11 +1,10 @@
 'user strict'
 
 const selectDivs = document.querySelectorAll('.div-main');
+
 let slideAtual = 0;
 
-setInterval(() => {
-    slideSobreNos();
-}, 5000);
+const constInterval = setInterval(slideSobreNos, 5000);
 
 function slideSobreNos() {
 
