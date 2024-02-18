@@ -141,12 +141,14 @@ body {
 .btn-right {
     right: 0;
     background: linear-gradient(to right, transparent 0%, #08B2F0 200%);
+    transition: .3s ease-in-out;
 }
 
 .btn-left {
     left: 0;
     z-index: 1;
     background: linear-gradient(to left, transparent 0%, #08B2F0 200%);
+    transition: .3s ease-in-out;
 }
 
 .btn-sobrenos:hover {
@@ -155,6 +157,7 @@ body {
 
 .arrow {
     width: 30px;
+    transition: .3s ease-in-out;
 }
 
 .arrow-right {
