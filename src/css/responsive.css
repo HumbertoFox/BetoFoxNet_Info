@@ -69,6 +69,10 @@
         bottom: 10px;
     }
 
+    .section-iframe {
+        min-height: 100vh;
+    }
+
     .ul-social {
         flex-wrap: wrap;
     }

@@ -13,12 +13,7 @@ main {
     font-family: 'Open Sans', sans-serif;
 }
 
-.section-iframe {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
+.section-iframe,
 .section-iframe iframe {
     width: 100%;
     height: 100%;
@@ -48,8 +43,22 @@ footer {
     font-weight: 400;
 }
 
-.company {
-    align-self: self-end;
+.div-recaqui-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-recaqui-company a {
+    transition: .3s ease-in-out;
+}
+
+.div-recaqui-company a:hover {
+    transform: scale(1.1);
+}
+
+.img-reclameaqui {
+    width: 80px;
 }
 
 .company p {
