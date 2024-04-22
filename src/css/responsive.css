@@ -1,7 +1,15 @@
 @media (max-width: 860px) {
+    .main-index {
+        height: 100%;
+    }
+
     .logo-bfn {
         width: 80px;
         height: 80px;
+    }
+
+    .section-sobrenos {
+        height: 100vh;
     }
 
     footer {
@@ -23,7 +31,7 @@
 }
 
 @media (max-width: 710px) {
-    .body-index {
+    body {
         min-width: 375px;
     }
 
@@ -69,8 +77,16 @@
         bottom: 10px;
     }
 
-    .section-iframe {
-        min-height: 100vh;
+    .section-apresentacao {
+        z-index: -1;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    .img-catalogo {
+        width: 100%;
     }
 
     .ul-social {

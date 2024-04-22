@@ -1,9 +1,4 @@
-body {
-    min-height: 100vh;
-    display: flex;
-}
-
-.main-sobrenos {
+.section-sobrenos {
     min-width: 100%;
     min-height: 100%;
     position: relative;
@@ -12,7 +7,6 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 
 .div-main {
@@ -166,14 +160,4 @@ body {
 
 .arrow-left {
     transform: rotate(90deg);
-}
-
-@keyframes iframeAnim {
-    0% {
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(1);
-    }
 }

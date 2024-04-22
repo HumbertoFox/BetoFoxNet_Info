@@ -4,20 +4,14 @@ body {
     justify-content: center;
 }
 
-main {
+.main-index {
     width: 1440px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.section-iframe,
-.section-iframe iframe {
-    width: 100%;
-    height: 100%;
-    display: flex;
 }
 
 footer {
@@ -28,7 +22,6 @@ footer {
     align-items: center;
     gap: 10px;
     padding: 10px 30px;
-    animation: footerAnim 2s ease 0s 1 normal forwards;
 }
 
 .div-endereco {
@@ -98,46 +91,16 @@ footer {
     display: none;
 }
 
-@keyframes footerAnim {
-    0% {
-        animation-timing-function: ease-in;
-        opacity: 0;
-        transform: translateY(250px);
-    }
+[data-animation] {
+    opacity: 0;
+    transition: 1s;
+}
 
-    38% {
-        animation-timing-function: ease-out;
-        opacity: 1;
-        transform: translateY(0);
-    }
+[data-animation = "left"] {
+    transform: translate3d(-100%, 0, 0);
+}
 
-    55% {
-        animation-timing-function: ease-in;
-        transform: translateY(65px);
-    }
-
-    72% {
-        animation-timing-function: ease-out;
-        transform: translateY(0);
-    }
-
-    81% {
-        animation-timing-function: ease-in;
-        transform: translateY(28px);
-    }
-
-    90% {
-        animation-timing-function: ease-out;
-        transform: translateY(0);
-    }
-
-    95% {
-        animation-timing-function: ease-in;
-        transform: translateY(8px);
-    }
-
-    100% {
-        animation-timing-function: ease-out;
-        transform: translateY(0);
-    }
+[data-animation].animation {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }

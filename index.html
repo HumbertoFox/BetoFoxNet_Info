@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="./src/css/reset.css" />
   <link rel="stylesheet" href="./src/css/style.css" />
   <link rel="stylesheet" href="./src/css/menu.css" />
+  <link rel="stylesheet" href="./src/css/apresent.css" />
+  <link rel="stylesheet" href="./src/css/catalogo.css" />
+  <link rel="stylesheet" href="./src/css/sobrenos.css" />
+  <link rel="stylesheet" href="./src/css/localizacao.css" />
   <link rel="stylesheet" href="./src/css/responsive.css" />
 </head>
 
@@ -31,16 +35,16 @@
         </label>
         <ul class="ul-menu">
           <li class="li-menu">
-            <a class="activa" href="./apresentation.html" target="iframe-inicial">Início</a>
+            <a class="activa" href="#section-apresentacao">Início</a>
           </li>
           <li class="li-menu">
-            <a href="./localizacao.html" target="iframe-inicial">Localização</a>
+            <a href="#localizacao">Localização</a>
           </li>
           <li class="li-menu">
-            <a href="./sobrenos.html" target="iframe-inicial">Sobre Nós</a>
+            <a href="#section-sobrenos">Sobre Nós</a>
           </li>
           <li class="li-menu">
-            <a href="./catalogo.html" target="iframe-inicial">Catálogo</a>
+            <a href="#section-catalogo">Catálogo</a>
           </li>
           <li class="li-menu">
             <a href="https://betofoxnetinfo.wuaze.com/index.php/mine" rel="noopener" target="_blank">Área do Cliente</a>
@@ -48,10 +52,217 @@
         </ul>
       </nav>
     </header>
-    <section class="section-iframe">
-      <iframe title="iframemain" src="./apresentation.html" name="iframe-inicial" frameborder="0">
-      </iframe>
+
+    <section class="section-apresentacao" id="section-apresentacao">
+      <img src="./src/images/LOGO-BFN-REDSOLUINTER.png" class="apresent-img" alt="Imagem Logo BetoFoxNet_Info" />
+      <img src="./src/images/Bancada.jpg" class="apresent-img" alt="Imagem de Bancada de Manutenção" />
+
+      <section class="section-boas-vindas">
+        <h1>Bem Vindo a <strong>BetoFoxNet_Info</strong></h1>
+        <p>
+          Trabalhamos com Impressão, Digitalização, Lan House, Montagem,
+          Manutenção em informática, Câmera de Segurança e Rede de Computadores, reparos em
+          notebooks, placas de Desktop, Placas de vídeo, all-in, Consoles...
+        </p>
+      </section>
     </section>
+
+    <section class="section-catalogo" id="section-catalogo" data-animation="left">
+      <h1 class="h1-catalogo">Lista de Serviços em nossa Loja!</h1>
+
+      <div class="div-catalogo">
+
+        <section class="section">
+          <h2 class="h2-catalogo">Reparo em Notebooks</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/electronics-2929043_640.jpg" alt="Imagem placa de Notebook">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Reparo em Placa de Desktop</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/workshop-4323956_640.jpg" alt="Imagem placa Desktop">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Reparo em Placa de Vídeo</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/tech-1137487_640.jpg" alt="Imagem placa de Vídeo">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Reparo em Console</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/ps4-2326616_640.jpg" alt="Imagem PS4">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Recuperação de dados</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/technology-6801352_640.jpg" alt="Imagem de dispositivos de eletrônicos">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Instalação de Windows</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/Windows-11-Start-640x427.webp" alt="Imagem desktop windows 11">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Instalação de Linux</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/code-5421210_640.jpg" alt="Imagem Linux no laptop">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Instalação de Jogos</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/Call_of_Duty_000-640x427.webp" alt="Imagem de jogo PC">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Digitalização e Impressão</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/office-5169618_640.jpg" alt="Imagem de Impressora">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Desenvolvimento de site</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/programming-1009134_640.jpg" alt="Imagem código HTML">
+          <p></p>
+        </section>
+      
+        <section class="section">
+          <h2 class="h2-catalogo">Remoção de vírus</h2>
+          <img class="img-catalogo" src="./src/images/catalogo/cyber-4610993_640.jpg" alt="Imagem de antivirus">
+          <p></p>
+        </section>
+      </div>
+    </section>
+
+    <section class="section-sobrenos" id="section-sobrenos" data-animation="left">
+      <button type="button" class="btn-left btn-sobrenos">
+        <img class="arrow-left arrow" src="./src/images/arrow-down-sign-to-navigate-blue.png" alt="Icon Arrow Down">
+      </button>
+      <div class="div-sobrenos div-main visibled">
+        <h1 class="h1-info-nos">Sobre Nós</h1>
+        <p class="p-info-nos">
+          Trabalhamos dês de 2006 com informática com montagem e manutenção em
+          computadores Desktop, 2010 com Rede de computadores, 2016 com
+          Telecomunicações, 2015 com reparos em placas de Desktop, 2021 com
+          Desenvolvimento de web front e back and, 2022 com reparos em placas de
+          Notebooks, 2023 com cópia, impressão, Lan house com entretenimento com
+          acesso à internet!
+        </p>
+      </div>
+  
+      <div class="div-placa-mae div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva em Desktops.</h2>
+      </div>
+  
+      <div class="div-placa-mae0 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva em Desktops.</h2>
+      </div>
+  
+      <div class="div-notebook div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva de Notebooks.</h2>
+      </div>
+  
+      <div class="div-notebook0 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva de Notebooks.</h2>
+      </div>
+  
+      <div class="div-notebook1 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva de Notebooks.</h2>
+      </div>
+  
+      <div class="div-notebook2 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva de Notebooks.</h2>
+      </div>
+  
+      <div class="div-notebook3 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva de Notebooks.</h2>
+      </div>
+  
+      <div class="div-dados div-main">
+        <h2 class="h2-info-nos">Recuperação de dados HD's, SSD's, Pen drivers...</h2>
+      </div>
+      
+      <div class="div-dados0 div-main">
+        <h2 class="h2-info-nos">Recuperação de dados HD's, SSD's, Pen drivers...</h2>
+      </div>
+  
+      <div class="div-placa-video div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva em placa de Vídeos.</h2>
+      </div>
+  
+      <div class="div-placa-video0 div-main">
+        <h2 class="h2-info-nos">Manutenção preventiva e corretiva em placa de Vídeos.</h2>
+      </div>
+  
+      <div class="div-desktop div-main">
+        <h2 class="h2-info-nos">
+          Montaguem de Pcs Gamers, Instalação configuração de sistemas e Apps,
+          Recuperação de dados etc...
+        </h2>
+      </div>
+  
+      <div class="div-desktop0 div-main">
+        <h2 class="h2-info-nos">
+          Montaguem de Pcs Gamers, Instalação configuração de sistemas e Apps,
+          Recuperação de dados etc...
+        </h2>
+      </div>
+  
+      <div class="div-servidor div-main">
+        <h2 class="h2-info-nos">
+          Montaguem de Servidores, Instalação configuração de sistemas e Apps,
+          Recuperação de dados etc...
+        </h2>
+      </div>
+  
+      <div class="div-servidor0 div-main">
+        <h2 class="h2-info-nos">
+          Montaguem de Servidores, Instalação configuração de sistemas e Apps,
+          Recuperação de dados etc...
+        </h2>
+      </div>
+  
+      <div class="div-site div-main">
+        <h2 class="h2-info-nos">
+          Desenvolvimento e Melhoria de Sites Responsividade para diferentes
+          Telas.
+        </h2>
+      </div>
+  
+      <div class="div-site0 div-main">
+        <h2 class="h2-info-nos">
+          Desenvolvimento e Melhoria de Sites Responsividade para diferentes
+          Telas.
+        </h2>
+      </div>
+  
+      <div class="div-seguranca div-main">
+        <h2 class="h2-info-nos">
+          Instalação, manutenção e configuração em Câmeras de Seguança.
+        </h2>
+      </div>
+  
+      <div class="div-seguranca0 div-main">
+        <h2 class="h2-info-nos">
+          Instalação, manutenção e configuração em Câmeras de Seguança.
+        </h2>
+      </div>
+      <button type="button" class="btn-right btn-sobrenos">
+        <img class="arrow-right arrow" src="./src/images/arrow-down-sign-to-navigate-blue.png" alt="Icon Arrow Down">
+      </button>
+    </section>
+
+    <iframe class="iframe-localizacao" title="localizacao" id="localizacao" data-animation="left"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.131224813806!2d-34.83498742499393!3d-7.881336192141105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2399e9dd291fd0d7%3A0x160e028698300d2f!2sBetoFoxNet_Info!5e0!3m2!1spt-BR!2sbr!4v1698025252449!5m2!1spt-BR!2sbr"
+      frameborder="0" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
     <footer>
       <address class="div-endereco">
         <p>Endereço:</p>
@@ -112,6 +323,7 @@
     </footer>
   </main>
   <script src="./src/js/index.js"></script>
+  <script src="./src/js/sobrenos.js"></script>
 </body>
 
 </html>

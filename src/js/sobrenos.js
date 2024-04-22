@@ -1,6 +1,6 @@
 'user strict'
 
-const selectMain = document.querySelector('.main-sobrenos');
+const selectMain = document.querySelector('.section-sobrenos');
 const selectDivs = document.querySelectorAll('.div-main');
 const selectBtnRight = document.querySelector('.btn-right');
 const selectBtnLeft = document.querySelector('.btn-left');
