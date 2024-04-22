@@ -7,13 +7,13 @@
     flex-wrap: wrap;
     gap: 15px;
     font-family: 'Open Sans', sans-serif;
-    animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 
 .apresent-img {
     max-width: 350px;
     display: flex;
     border-radius: 15px;
+    animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 
 .section-boas-vindas {
@@ -23,6 +23,7 @@
     justify-content: center;
     text-align: justify;
     gap: 20px;
+    animation: iframeAnim 2s ease 0s 1 normal forwards;
 }
 
 .section-boas-vindas h1 {
