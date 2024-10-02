@@ -14,8 +14,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    animation: headerAnim 2s ease 0s 1 normal forwards;
+}
+
+.apresent-construction-img {
+    max-width: 70%;
+    display: flex;
+    animation: iframeAnim 2s ease 0s 1 normal forwards;
+    transition: .4s ease-in-out;
 }
 
 footer {
@@ -26,6 +36,7 @@ footer {
     align-items: center;
     gap: 10px;
     padding: 10px 30px;
+    animation: headerAnim 2s ease 0s 1 normal forwards;
 }
 
 .div-endereco {
@@ -100,11 +111,55 @@ footer {
     transition: 1s;
 }
 
-[data-animation = "left"] {
+[data-animation="left"] {
     transform: translate3d(-100%, 0, 0);
 }
 
 [data-animation].animation {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+@keyframes headerAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateY(-65px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateY(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateY(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
 }

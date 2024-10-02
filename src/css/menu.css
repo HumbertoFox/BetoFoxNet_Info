@@ -9,7 +9,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 30px;
-	animation: headerAnim 2s ease 0s 1 normal forwards;
 }
 
 .logo-bfn {
@@ -166,50 +165,6 @@ input:checked~label .hamburg:before {
 input:checked~label .hamburg:after {
 	transform: rotate(-90deg);
 	bottom: 0;
-}
-
-@keyframes headerAnim {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateY(-250px);
-	}
-
-	38% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	55% {
-		animation-timing-function: ease-in;
-		transform: translateY(-65px);
-	}
-
-	72% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
-
-	81% {
-		animation-timing-function: ease-in;
-		transform: translateY(-28px);
-	}
-
-	90% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
-
-	95% {
-		animation-timing-function: ease-in;
-		transform: translateY(-8px);
-	}
-
-	100% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
 }
 
 @keyframes logoAnim {

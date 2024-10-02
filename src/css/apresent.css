@@ -1,7 +1,7 @@
 .section-apresentacao {
     width: 100%;
     min-height: 70vh;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
