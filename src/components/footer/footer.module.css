@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    padding: 10px;
+    cursor: default;
+}
+
+.footer p {
+    font-size: 13px;
+    color: var(--cor-branca);
+}
+
+.addressyear {
+    text-align: center;
+}

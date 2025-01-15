@@ -1,0 +1,76 @@
+.header {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.linklogo img {
+    max-width: 110px;
+    background-color: var(--cor-fundo-cinza-escuro);
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.linklogo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo-escuro);
+    padding: 1px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+
+.linklogo::before {
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    content: '';
+    background: repeating-conic-gradient(#00f 0%, #00f 5%, #00f 10%, transparent 5%, transparent 40%, #00f 50%);
+    animation: anime 4s linear infinite;
+    animation-delay: -1s;
+    border-radius: 15px;
+}
+
+.linklogo::after {
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    content: '';
+    background: repeating-conic-gradient(#00f 0%, #00f 5%, #00f 10%, transparent 5%, transparent 40%, #00f 50%);
+    animation: anime 4s linear infinite;
+    border-radius: 15px;
+}
+
+.linklogo:hover {
+    box-shadow: 0 0 20px #FFD700;
+}
+
+@keyframes anime {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

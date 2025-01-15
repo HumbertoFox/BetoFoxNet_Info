@@ -1,0 +1,37 @@
+:root {
+  --cor-primaria: #43BD8E;
+  --cor-secundaria: #FD6C22;
+  --cor-branca: #FFF;
+  --cor-fundo-escuro: #040203;
+  --cor-fundo-cinza-escuro: #282828;
+  --cor-fundo-cinza-claro: #353535;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--cor-fundo-cinza-escuro);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
