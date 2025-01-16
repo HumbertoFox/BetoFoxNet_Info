@@ -23,16 +23,16 @@
     cursor: default;
 }
 
-.start h1 {
+.divtext h1 {
     text-align: center;
     opacity: 0;
 }
 
-.start h1 strong {
+.divtext h1 strong {
     transition: all 0.3s ease-in-out;
 }
 
-.start h1 strong:hover {
+.divtext h1 strong:hover {
     color: var(--cor-primaria);
 }
 
@@ -44,5 +44,6 @@
 @media (max-width: 768px) {
     .start {
         flex-direction: column;
+        justify-content: space-evenly;
     }
 }

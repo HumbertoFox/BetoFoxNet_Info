@@ -5,14 +5,6 @@
     padding: 10px 10px 0 10px;
 }
 
-.linklogo img {
-    max-width: 110px;
-    background-color: var(--cor-fundo-cinza-escuro);
-    transition: all .4s ease-in-out;
-    border-radius: 15px;
-    z-index: 1;
-}
-
 .linklogo {
     display: flex;
     position: relative;
@@ -23,6 +15,14 @@
     border-radius: 15px;
     overflow: hidden;
     transition: all .4s ease-in-out;
+}
+
+.linklogo img {
+    max-width: 110px;
+    background-color: var(--cor-fundo-cinza-escuro);
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+    z-index: 1;
 }
 
 .linklogo::before {
@@ -73,6 +73,7 @@
             #00f);
     background-size: 400% 400%;
     animation: gradient 4s linear infinite;
+    opacity: 0;
 }
 
 .navul a {

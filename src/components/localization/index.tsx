@@ -21,27 +21,27 @@ export default function LocalizationComponent() {
 
         gsap.fromTo(iframe, {
             opacity: 0,
-            scale: 0.5,
+            scale: 0.5
         }, {
             opacity: 1,
             scale: 1,
             duration: 1,
             scrollTrigger: {
                 trigger: section,
-                start: 'top 90%',
-            },
+                start: 'top 90%'
+            }
         });
         gsap.fromTo(title, {
             opacity: 0,
-            y: 200,
+            y: 200
         }, {
             opacity: 1,
             y: 0,
             duration: 1,
             scrollTrigger: {
                 trigger: section,
-                start: 'top 90%',
-            },
+                start: 'top 90%'
+            }
         });
     }, []);
     return (

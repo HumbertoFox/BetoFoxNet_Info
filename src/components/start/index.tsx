@@ -21,7 +21,7 @@ export default function StartComponent() {
 
         gsap.fromTo(startImg, {
             opacity: 0,
-            scale: 0.5,
+            scale: 0.5
         }, {
             opacity: 1,
             scale: 1,
@@ -30,7 +30,7 @@ export default function StartComponent() {
         });
         gsap.fromTo(startH1, {
             opacity: 0,
-            y: 200,
+            y: 200
         }, {
             opacity: 1,
             y: 0,
@@ -40,7 +40,7 @@ export default function StartComponent() {
         });
         gsap.fromTo(startText, {
             opacity: 0,
-            y: -200,
+            y: -200
         }, {
             opacity: 1,
             y: 0,
