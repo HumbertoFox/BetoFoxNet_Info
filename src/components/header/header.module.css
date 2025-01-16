@@ -1,9 +1,8 @@
 .header {
     width: 100%;
-    max-width: 1440px;
     display: flex;
-    padding-top: 10px;
-    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
 }
 
 .linklogo img {
@@ -31,7 +30,7 @@
     height: 130%;
     position: absolute;
     content: '';
-    background: repeating-conic-gradient(#00f 0%, #00f 5%, #00f 10%, transparent 5%, transparent 40%, #00f 50%);
+    background: repeating-conic-gradient(var(--cor-primaria) 0%, var(--cor-primaria) 5%, var(--cor-primaria) 10%, transparent 5%, transparent 40%, var(--cor-primaria) 50%);
     animation: anime 4s linear infinite;
     animation-delay: -1s;
     border-radius: 15px;
@@ -42,13 +41,54 @@
     height: 130%;
     position: absolute;
     content: '';
-    background: repeating-conic-gradient(#00f 0%, #00f 5%, #00f 10%, transparent 5%, transparent 40%, #00f 50%);
+    background: repeating-conic-gradient(var(--cor-primaria) 0%, var(--cor-primaria) 5%, var(--cor-primaria) 10%, transparent 5%, transparent 40%, var(--cor-primaria) 50%);
     animation: anime 4s linear infinite;
     border-radius: 15px;
 }
 
 .linklogo:hover {
-    box-shadow: 0 0 20px #FFD700;
+    box-shadow: 0 0 20px var(--cor-secundaria);
+}
+
+.navul {
+    display: flex;
+    gap: 10px;
+    color: var(--cor-branca);
+    list-style: none;
+}
+
+.navul li {
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 1px;
+    background: linear-gradient(45deg,
+            #00f,
+            var(--cor-fundo-cinza-escuro),
+            #00f,
+            var(--cor-fundo-cinza-escuro),
+            #00f);
+    background-size: 400% 400%;
+    animation: gradient 4s linear infinite;
+}
+
+.navul a {
+    background-color: var(--cor-fundo-cinza-escuro);
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navul a:hover {
+    color: var(--cor-primaria);
+}
+
+@media (max-width: 768px) {
+    .navul {
+        display: none;
+    }
 }
 
 @keyframes anime {

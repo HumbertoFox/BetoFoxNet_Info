@@ -1,0 +1,20 @@
+.localization {
+    width: 100%;
+    height: calc(100vh - 149px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.localization h4 {
+    color: var(--cor-branca);
+    opacity: 0;
+    cursor: default;
+}
+
+.iframe {
+    width: 100%;
+    opacity: 0;
+}
