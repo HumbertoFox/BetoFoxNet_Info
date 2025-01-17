@@ -45,5 +45,11 @@
     .start {
         flex-direction: column;
         justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .start img,
+    .divtext {
+        max-width: 100%;
     }
 }

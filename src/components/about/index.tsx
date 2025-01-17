@@ -39,10 +39,12 @@ export default function AboutComponent() {
         });
         gsap.fromTo(aboutText, {
             opacity: 0,
-            y: -200
+            y: 200,
+            x: -200
         }, {
             opacity: 1,
             y: 0,
+            x: 0,
             duration: 1,
             scrollTrigger: {
                 trigger: aboutSection,
