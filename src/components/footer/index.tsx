@@ -41,7 +41,7 @@ export default function FooterComponent() {
             </address>
             <div className={styles.social}>
                 <Link
-                    href='https://www.instagram.com/betofoxnet'
+                    href='https://www.instagram.com/betofoxnet_info/'
                     target='_blank'
                 >
                     <Icon
@@ -50,7 +50,7 @@ export default function FooterComponent() {
                     />
                 </Link>
                 <Link
-                    href='https://www.facebook.com/betofoxnet'
+                    href='https://www.facebook.com/BetofoxnetInfo'
                     target='_blank'
                 >
                     <Icon
@@ -59,7 +59,7 @@ export default function FooterComponent() {
                     />
                 </Link>
                 <Link
-                    href='https://www.linkedin.com/in/betofoxnet'
+                    href='https://www.linkedin.com/company/betofoxnetinfo/'
                     target='_blank'
                 >
                     <Icon
@@ -68,7 +68,7 @@ export default function FooterComponent() {
                     />
                 </Link>
                 <Link
-                    href='https://www.twitter.com/betofoxnet'
+                    href='https://twitter.com/betofoxnet_info'
                     target='_blank'
                 >
                     <Icon
@@ -77,7 +77,7 @@ export default function FooterComponent() {
                     />
                 </Link>
                 <Link
-                    href='wa.me/5581988075408'
+                    href='https://api.whatsapp.com/send/?phone=5581988075408&text&type=phone_number&app_absent=0'
                     target='_blank'
                 >
                     <Icon

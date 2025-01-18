@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 0 10px;
+    transition: all .3s ease-in-out;
 }
 
 .linklogo {
@@ -89,6 +90,10 @@
 @media (max-width: 768px) {
     .navul {
         display: none;
+    }
+
+    .header {
+        justify-content: center;
     }
 }
 
