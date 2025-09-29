@@ -1,7 +1,7 @@
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
 export interface iconsProps {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    icon: string | any;
+    icon: IconProp;
     className?: string;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    [key: string]: any;
+    [key: string]: unknown;
 };
