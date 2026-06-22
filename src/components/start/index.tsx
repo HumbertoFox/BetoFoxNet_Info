@@ -3,10 +3,7 @@
 import LogoBfn from '@/assets/LOGO_BFN.png';
 import Image from 'next/image';
 import styles from './start.module.css';
-import {
-    useEffect,
-    useRef
-} from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export default function StartComponent() {

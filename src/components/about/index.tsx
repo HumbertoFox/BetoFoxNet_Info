@@ -3,10 +3,7 @@
 import LogoBfnAzul from '@/assets/LOGO-BFN-SIGLA-AZUL.png';
 import Image from 'next/image';
 import styles from './about.module.css';
-import {
-    useEffect,
-    useRef
-} from 'react';
+import { useEffect, useRef } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 

@@ -4,10 +4,7 @@ import Image from 'next/image';
 import styles from './header.module.css';
 import logoBfn from '@/assets/LOGO_BFN.png';
 import Link from 'next/link';
-import {
-    useEffect,
-    useRef
-} from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export default function HeaderComponent() {
@@ -111,7 +108,7 @@ export default function HeaderComponent() {
                     </li>
                     <li ref={headerClientRef}>
                         <Link
-                            href='https://betofoxnetinfo.wuaze.com/index.php/mine'
+                            href='https://nextjs-auth-sidebar-shadcn.vercel.app/'
                             rel='noopener'
                             target='_blank'
                         >

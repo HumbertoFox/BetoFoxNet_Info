@@ -1,13 +1,13 @@
 'use client';
 
 import styles from './gallery.module.css';
-import Gallery0 from '@/assets/App_Laravel.png';
-import Gallery1 from '@/assets/App_Next_Js.png';
-import Gallery2 from '@/assets/App_Next_Js01.png';
-import Gallery3 from '@/assets/App_Next_Js02.png';
-import Gallery4 from '@/assets/Consult0.png';
-import Gallery5 from '@/assets/donor_form.png';
-import Gallery6 from '@/assets/list_donations.png';
+import Gallery0 from '@/assets/Project_Login.png';
+import Gallery1 from '@/assets/Project_Admin.png';
+import Gallery2 from '@/assets/Project_User.png';
+import Gallery3 from '@/assets/Project_settings.png';
+import Gallery4 from '@/assets/Project_Aquarela.png';
+import Gallery5 from '@/assets/Project_Mlu.png';
+import Gallery6 from '@/assets/Project_Dolbytec.png';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
